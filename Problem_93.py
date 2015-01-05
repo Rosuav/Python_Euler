@@ -46,8 +46,7 @@ def targets(digit_sets):
     # We'll want to recursively call this function 3 times on digit_sets.
     results = []
     for digit_set in digit_sets:
-        to_combine = list(itertools.combinations(digit_set, 2))
-        for digits in to_combine:
+        for digits in itertools.combinations(digit_set, 2):
 
             # Grab the remainders
             remainders = list(digit_set)
