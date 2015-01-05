@@ -29,7 +29,7 @@ def divide_digits(numbers):
     numbers = list(numbers)
     numbers.sort()
     if numbers[1] % numbers[0] == 0:
-        return int(numbers[1] / numbers[0])
+        return numbers[1] // numbers[0]
     else:
         return False
 
