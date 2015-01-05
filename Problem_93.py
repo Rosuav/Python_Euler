@@ -96,5 +96,5 @@ def main():
     return most_consecutive_targets()
 
 if __name__ == '__main__':
-    print main()
-    print "Execution time: {}".format(time.clock() - t1)
+    print(main())
+    print("Execution time: {}".format(time.clock() - t1))
