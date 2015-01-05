@@ -59,7 +59,7 @@ def targets(digit_sets):
                     result = sorted([function(digits)] + remainders)
                     results.append(tuple(result))
 
-    return sorted(list(set(results)))
+    return sorted(set(results))
 
 
 def digit_set_targets(digit_sets):
